@@ -1,0 +1,582 @@
+a.btn{
+  color:   #eee;
+  text-decoration: none;
+  border: #eee;
+}
+textarea {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 550% !important;
+}
+
+a.btn.white_btn{
+  background: #039ee3;
+ border:solid 0.5px white;
+}
+a.btn.white_btn:hover{
+  background: #008eca96;
+ border:solid 0.5px white;
+}
+.dcn a{
+color:red;
+}
+
+/* modal containt  */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+div#myBtn{
+  margin: 0 auto;
+  text-align: center;
+  padding: 0% 10%;
+  background-color: transparent;
+
+}
+/* buttom modal */
+input[type=search] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* The Modal (background) */
+
+
+/* Modal Content */
+
+.indicat{
+  padding: 20px 0px;
+  max-width: 10%;
+  position: relative;
+  display: flex;
+  left: 0;
+
+}
+.indicat li{
+  position: relative;
+  right: 0;
+  background-color:rgba(10, 139, 199, 0.8);
+  border-radius: 50% ;
+  bottom: 15px;
+  color: rgba(10, 139, 199, 0.8);
+  z-index: 0;
+  width: 20px;
+  padding: 10px;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+div .myForm{
+margin: 0 auto;
+}
+/*//////////////////////////limite text////////////////////*/
+p.description {
+  white-space: nowrap; 
+  width: 1100%;
+  height: 500%; 
+  text-overflow: ellipsis;
+  padding: 2px;
+  border: 0.5px solid #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+  /*////////////////////////////////bugeur///////////////////////////////////////////////*/
+  div.burger{
+    justify-content: center;
+    margin: 0 auto;
+  }
+div.bar0{
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 0 10% 0;
+        width: 35px;
+        height: 5px;
+
+}
+  
+  .bar1, .bar2, .bar3 {
+    cursor: pointer;
+    height: 5px;
+    background-color: rgb(35, 79, 175);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  div.navmenu {
+    color: black;
+    padding: 0px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: white solid 1px;
+}
+
+.nav-menu-reseau {
+    background-color: rgb(219, 217, 217);
+    color: black;
+    padding: 20px;
+}
+
+.list-item a {
+    padding: 0 20px;
+    border-left: solid 0.5px #777;
+}
+
+.list-item a.n {
+    border: none;
+}
+
+/*/////////////////////////////////////////////////////////////////////carosell///////////////////////////////////////////////////////
+*/
+.carousel.slide .carousel-inner{
+  color: #000;
+  padding: 5px;
+  border: 0.5px black solide;
+}
+.carousel-inner  {
+  width: 100%;
+  height: 100%;
+}
+.carousel-inner.body-slider{
+  width: 100%;
+  height: 159px;
+}
+div.carousel-item.div-slide{
+  margin: 5px auto;
+  height: 150px;
+  padding: 0 5px;
+  width: 100%;
+}
+.over-head{
+  z-index: +999999;
+  /* position: absolute; */
+}
+/*////////////////////////////////formation///////////////////////////////////////*/
+
+div.full.color-item{
+  margin: 2px auto;
+
+}
+div.full.color-item :hover{
+  color: rgb(119, 119, 119);
+  background-color:rgba(10, 139, 199);
+
+
+}
+/*///////////////////////////baground image////////////////////////////////////////////////////////////////////////////*/
+
+div.demo{
+    background-color:rgba(10, 139, 199, 0.281);
+  }
+  div.radius{
+    width: 100%;
+    justify-content: center;
+
+  }
+  div.radius img {
+    min-height: 15vh;
+
+      margin: 0 auto;
+      max-width: 100%;
+      padding: 2px 0;
+    border-radius: 50%;
+}
+.full-screan {
+  width: 100%;
+  height: 0%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.full {
+  width: 100%;
+  height: 0%;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.display{
+  display: none;
+  position: relative;
+  z-index: -1 !important;
+
+}
+.carousel-control-prev,.carousel-control-next {
+  position: absolute !important;
+  top: 27% !important;
+  bottom: 0;
+  z-index: +5 !important;
+  display: -ms-flexbox;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 2% !important;
+  height: 68% !important;
+  color: #777;
+  text-align: center;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+/*  p de cookis */
+form.cookies p{
+  margin: 0 0 10px;
+  padding: 0 17px;
+}
+
+b form.cookies {
+  margin: 0px auto;
+  position: absolute;
+  position: fixed;
+  z-index: +999;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background: white;
+  padding: 20px;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* front accueil  */
+#experience{
+
+  background-image: url('../../functions/max-image/Design-Chicago.jpg') ;
+   width: 100%; opacity: 0.70; background-position: center;background-size: cover; background-repeat: no-repeat; background-attachment:fixed;
+}
+p.linear-gradient{
+  background: linear-gradient(to right,rgba(253, 159, 159, 0.123) 0,rgba(243, 122, 122, 0.459) 100%) !important;
+ 
+}
+section .heading {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+/* fron accueil */
+
+.group {
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(10, 139, 199, 0.8);;
+}
+span.centerimg {
+  background-color: transparent;
+  margin: 15px auto 0;
+  text-align: center;
+}
+article.block-img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.block01 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.block01 img {
+  width: 270px;
+  margin: 0px auto 0;
+}
+.block01 img:hover {
+  background-color: white;
+
+}
+.imagesbl {
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #222222;
+  margin: 0;
+}
+.service img {
+  background-color: #ffffff;
+}
+span.centerimg {
+  background-color: transparent;
+  margin: 15px auto 0;
+  text-align: center;
+}
+/* information sur les services  */
+
+section#skills,
+section#Responsive,
+section#experience,
+section#caroussel {
+    z-index: -999998;
+    position: relative;
+    overflow: hidden;
+}
+.pimg1,.pimg2,.pimg3{
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+}
+
+.timeline-body p{
+  color: rgba(255, 255, 255, 0.877);
+}
+
+section .heading h2 {
+    text-transform: uppercase;
+}
+
+.sucesse-divider {
+    width: 100px;
+    height: 2px;
+    margin: 15px auto;
+}
+
+.red-divider {
+    width: 100px;
+    height: 2px;
+    background: #d82c2e;
+    margin: 15px auto;
+}
+
+.white-divider {
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    margin: 10px auto;
+}
+.timeline {
+  padding: 30px 10px;
+  position: relative;
+  margin: 5px 10px;
+
+}
+.timeline>li  {
+  position: relative;
+  color: white;
+  padding: 5px;
+  border: solid 0.5px white ;
+}
+.timeline>li.stagiaire {
+  position: relative;
+  color: white;
+  padding: 5px;
+  margin: 0 auto;
+  width: 50%;
+  border: solid 0.5px white ;
+}
+section .heading {
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+/* pour block l'en tête de la nav bar*/
+.topscroll {
+  background-color: #eee !important;
+  position: fixed !important;
+  width: 100% !important;
+  top: 0 !important;
+  z-index: +999 !important;
+}
+
+/* coleur de mon plus pagnier */
+button.gm-control-active {
+background-color: white !important;
+}
+
+/* pading  */
+.full .color-item{
+  margin: 15px;
+  padding: 1px;
+}
+button.gm-control-active img{
+  color: #fff;
+}
+/* gestion de modal recherche  */
+
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border: none;
+}
+
+ol.carousel-indicators li{
+  position: relative;
+}
+p.etudiant{
+  margin: 20px auto;
+
+}
+
+
+
+.block {
+  background: transparent;
+  margin-bottom: 30px;
+}
+.block .block-title {
+  background: none;
+  text-align: center;
+  background: url(/sites/all/themes/gavias_educar/images//bg-title.png) no-repeat scroll bottom center transparent;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.view-id-evenements.view-display-id-block_1 .grid-inner .meta .entry-date {
+  color: #fff!important;
+  line-height: 1;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.view-id-evenements.view-display-id-block_1 .grid-inner .meta .entry-title a {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff!important;
+  font-weight: 600;
+}
+.view-id-evenements.view-display-id-block_1 img {
+  border: 0;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+}
+.view-id-evenements.view-display-id-block_1 .grid-inner .meta {
+  background: linear-gradient(to bottom,transparent 0px,rgba(88, 83, 83, 0.99) 100%) repeat scroll 0 0 transparent;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  font-family: Gill Sans MT,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+
+}
+
+.view-evenements.view-display-id-block_1 .view-footer {
+  padding-top: 52px;
+  text-align: center;
+}
+a.more-art {
+  color: #FFF;
+  background-color: #2dc4db;
+  padding: 20px;
+  margin-top: 22px;
+  transition: all 0.5s;
+}
+.block .block-title {
+  background: none;
+  text-align: center;
+  background: url(/sites/all/themes/gavias_educar/images//bg-title.png) no-repeat scroll bottom center transparent;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+div.btn-mdf{
+  position: relative;
+  min-height: 1px;
+  padding-right: 2px !important;
+  padding-left: 2px !important;
+}
+img.modif-img{
+  width: 100%;
+
+}
